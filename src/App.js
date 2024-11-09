@@ -14,7 +14,7 @@ import GinRummy from './pages/gin-rummy';
 
 function App() {
   return (
-    <BrowserRouter basename={process.env.PUBLIC_URL}>
+    <BrowserRouter>
       <Layout>
        <Routes>
          <Route path="/" element={<HomePage />} />
